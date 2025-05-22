@@ -9,6 +9,16 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+
+
+doctype_js = {
+    "Lead": "public/js/lead_custom.js",
+    "Opportunity": "public/js/opportunity_custom.js"
+}
+
+after_install = "root_home_customization.patches.run_all"
+
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/root_home_customization/css/root_home_customization.css"
 # app_include_js = "/assets/root_home_customization/js/root_home_customization.js"
