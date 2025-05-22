@@ -16,7 +16,8 @@ doctype_js = {
     "Opportunity": "public/js/opportunity_custom.js"
 }
 
-after_install = "root_home_customization.patches.run_all"
+after_install = "root_home_customization.patches.run_all.run"
+
 
 
 # include js, css files in header of desk.html
